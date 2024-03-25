@@ -125,7 +125,7 @@ export default defineComponent({
     }
 
     &__search {
-
+        background: #ffffff;
         display: grid;
         grid-template-columns: 10% 70% 10%;
         gap: 5%;
