@@ -1,33 +1,20 @@
-# project-youtube
+Hi this project using vue 3 + ts, quasar, sass
 
-This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
+I hope that if I had more time and was given the opportunity, I would improve it much better. Thank you :)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-## Type Support for `.vue` Imports in TS
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+How to run at local
 
-## Customize configuration
+- clone this repositoru
+- npm install
+- npm run dev
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
+How to build on production
 
-```sh
-npm install
-```
+- npm run build
 
-### Compile and Hot-Reload for Development
 
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+etc, see at package.json
