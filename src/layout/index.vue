@@ -75,7 +75,7 @@ export default defineComponent({
 .content {
     display: grid;
     grid-template-columns: 100%;
-    margin-top: 1%;
+    margin-top: 0.5%;
 
     @media (min-width: 767px) {
         grid-template-columns: 5% 90%;

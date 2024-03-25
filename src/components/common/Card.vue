@@ -20,7 +20,7 @@
                                 </div>
                             </div>
                             <div class="card__content__option">
-                                option
+                                <q-icon name="fa-solid fa-ellipsis-vertical" />
                             </div>
                         </div>
                     </q-card-section>
@@ -57,6 +57,11 @@ export default defineComponent({
             gap: 20px;
             justify-content: space-between;
 
+        }
+
+        &__option {
+            align-self: center;
+            cursor: pointer;
         }
 
         &__detail {
