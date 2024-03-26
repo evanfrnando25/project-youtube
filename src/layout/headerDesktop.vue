@@ -11,7 +11,7 @@
             <div class="header__center">
                 <div class="header__center__wrapper">
                     <span class="header__center__search">
-                        <input type="text" />
+                        <input type="text" placeholder="Search" />
                     </span>
                     <span  class="header__center__icon">
                         <q-icon  name="fa-solid fa-magnifying-glass" />

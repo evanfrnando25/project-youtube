@@ -117,24 +117,6 @@ export default defineComponent({
                 name:"Eksplorasi",
                 items: [
                     {
-                        name: "Musica Studio",
-                        icon: "/icon/subscription.svg"
-                    },
-                    {
-                        name: "Raisa Anggani",
-                        icon: "/icon/subscription.svg"
-                    },
-                    {
-                        name: "yb",
-                        icon: "/icon/subscription.svg"
-                    }
-                ]
-            },
-            {
-                id: 4,
-                name:"Eksplorasi",
-                items: [
-                    {
                         name: "Trending",
                         icon: "/icon/subscription.svg"
                     },
@@ -161,7 +143,7 @@ export default defineComponent({
                 ]
             },
             {
-                id: 5,
+                id: 4,
                 name:"Lainnya dari Youtube",
                 items: [
                     {
@@ -224,7 +206,10 @@ export default defineComponent({
     }
 
     &__navigation {
-                overflow-y: scroll;
+
+         &:hover {
+            overflow-y: scroll;
+         }
 
     }
 
