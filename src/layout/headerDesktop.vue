@@ -17,7 +17,7 @@
                         <q-icon  name="fa-solid fa-magnifying-glass" />
                     </span>
                 </div>
-                <span>
+                <span class="header__voice">
                     <q-icon name="fa-solid fa-microphone" />
                 </span>
             </div>
@@ -59,6 +59,15 @@ export default defineComponent({
         align-content: center;
         align-items: center;
         background: #ffffff;
+    }
+
+    &__voice {
+        border: 1px solid grey;
+        width: 32px;
+        padding: 10px;
+        font-size: 10px;
+        border-radius: 20px;
+        cursor: pointer;
     }
 
     &__start {
@@ -108,6 +117,7 @@ export default defineComponent({
             }
 
         }
+        
 
     }
 

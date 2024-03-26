@@ -102,7 +102,11 @@ export default defineComponent({
 }
 
 :deep(.q-img) {
-    height: 120px;
+    height: 220px;
+}
+
+:deep(.q-card) {
+    border-radius: 10px;
 }
 
 </style>

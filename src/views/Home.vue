@@ -8,7 +8,7 @@
             </div>
         </div>
         <div class="content__video">
-                <CommonCard v-for="items in dataVideo" :key="items.id" :data="items" />
+            <CommonCard v-for="items in dataVideo" :key="items.id" :data="items" />
        </div>
     </div>
 </template>
