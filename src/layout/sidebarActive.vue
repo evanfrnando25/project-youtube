@@ -1,6 +1,7 @@
 <template>
     <div class="sidebar__wrapper">
-        <div class="sidebar__header">
+        <div class="sidebar__container">
+            <div class="sidebar__header">
            <div @click="$emit('handleSidebar')" class="sidebar__header__icon">
                 <q-icon name="fa-solid fa-bars" />
            </div>
@@ -47,6 +48,7 @@
         </div>
          <div class="sidebar__menu">
             <span> @ 2024 Google LLC </span>
+        </div>
         </div>
         </div>
     </div>
@@ -192,11 +194,21 @@ export default defineComponent({
 
     &__wrapper {
         height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.50);
+        position: fixed;
+        top: 0;
+        z-index: 999999;
+    }
+
+    &__container {
+        height: 100%;
         width: 22%;
         box-shadow: rgba(0, 100, 111, 0.2) 0px 7px 29px 0px;
         background: #ffffff;
         position: fixed;
         top: 0;
+        opacity: 100%;
         padding: 1% 1%;
         z-index: 999999;
         display: flex;
